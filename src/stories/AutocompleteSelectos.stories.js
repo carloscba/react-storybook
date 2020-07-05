@@ -17,11 +17,19 @@ const countries = [
 ]
 
 storiesOf('AutocompleteSelector', module).add('Default configuration', () => {
-    return <AutocompleteSelector />
+    return (
+        <AutocompleteSelector>
+            <AutocompleteSelector.Field/>
+        </AutocompleteSelector>        
+    )
 } )
 
 storiesOf('AutocompleteSelector', module).add('Custom options', () => {
-    return <AutocompleteSelector options={ countries } label="label" />
+    return (
+        <AutocompleteSelector>
+            <AutocompleteSelector.Field options={ countries } label="label"/>
+        </AutocompleteSelector>        
+    )    
 } )
 
 storiesOf('AutocompleteSelector', module).add('With Children', () => {

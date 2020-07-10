@@ -18,8 +18,7 @@ class AutocompleteSelector extends Component {
     }
 
     onSelect = (event, value) => {
-        console.log(value)
-        this.setState({selection: value})
+        this.setState({selection: value});
     }
 
     render() {

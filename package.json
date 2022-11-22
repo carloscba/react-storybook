@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@storybook/react": "^3.4.3",
+    "@storybook/react": "^6.5.13",
     "babel-core": "^6.26.3"
   },
   "dependencies": {
